@@ -23,7 +23,7 @@ h1 {
 .Yellow-text {
   color: yellow;
   font-family:"poppins bold", sans-serif;
-  font-size:9vw;
+  font-size:7vw;
 }
 
 .hero {
@@ -260,7 +260,7 @@ li {
 }
 
 .about-us h5 {
-  color: #fc0202;
+  color: yellow;
   font-weight: bolder;
   font-family: "Poppins", sans-serif;
 }
@@ -280,6 +280,12 @@ li {
 
 .about-sub i h6 {
   font-size: 18px;
+}
+.our-work .title{
+  color: #000;
+}
+.contact .title{
+  color: #000;
 }
 
 
