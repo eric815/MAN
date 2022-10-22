@@ -15,14 +15,18 @@
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg py-3 sticky-top bg-white shadow p-0 mb-5 rounded bg-light">
+  <nav class="navbar navbar-expand-lg py-3 sticky-top bg-white shadow p-0 mb-5  bg-light">
     <div class="container">
       <a class="navbar-brand" href="#Home">
         <img src="images/manchurian_logo.png" alt="Logo" width="46" height="38" class="d-inline-block align-text-top" />
-        <b>MANCHURIAN</b>
+        <b>MANCHURIAN GARMENTS LIMITED</b>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,8 +34,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
-          <a class="nav-link" href="#Home">Home</a>
-          <a class="nav-link" href="#Services">Services</a>
+          <a class="nav-link" href="#hero">Home</a>
           <a class="nav-link" href="#About">About Us</a>
           <a class="nav-link" href="#Our Work">Our Work</a>
           <a class="nav-link" href="#Contact">Contact</a>
@@ -40,167 +43,130 @@
     </div>
   </nav>
 
-  <div class="hero vh-100 d-flex align-items-center" id="Home">
-    <div class="container">
-      <div class="row mt-5 ">
-        <div class="col-lg-7 mx-auto text-center">
-          <h1 style="font-size:5vw;" class="animate__animated animate__fadeInRightBig animate__repeat-2">
-            <b>Welcome to <br><span class="Yellow-text align-middle fw-bolder">Manchurian</span></b><br>
-          </h1>
-          <p style="font-size:2vw;" class="text-white animate__animated animate__flipInX animate__repeat-2 fst-italic">
-            We're glad you're here
-          </p>
-          <a href="Manchurian_Garments_ltd_Profile_Low.pdf" class="btn btn-danger btn-lg"><b>Learn More</b></a>
+
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url(images/pexels-wendy-van-zyl-1212179.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h1 style="font-size:5vw;" class="animate__animated animate__fadeInRightBig animate__repeat-2">
+                  <b>Welcome to <br><span class="Yellow-text align-middle fw-bolder">Manchurian Garments
+                      Limited</span></b><br>
+                </h1>
+                <p style="font-size:2vw;"
+                  class="text-white animate__animated animate__flipInX animate__repeat-2 fst-italic">
+                  Brilliant by design
+                </p>
+                <div>
+                  <a href="Manchurian_Garments_ltd_Profile_Low.pdf"
+                    class="btn btn-danger btn-lg animate__animated animate__fadeInUp scrollto">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url(images/pexels-maxi-gagliano-4617593.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h1 style="font-size:5vw;" class="animate__animated animate__fadeInRightBig animate__repeat-2">
+                  <b>Welcome to <br><span class="Yellow-text align-middle fw-bolder">Manchurian Garments
+                      Limited</span></b><br>
+                </h1>
+                <p style="font-size:2vw;"
+                  class="text-white animate__animated animate__flipInX animate__repeat-2 fst-italic">
+                  Brilliant by design
+                </p>
+                <div>
+                  <a href="Manchurian_Garments_ltd_Profile_Low.pdf"
+                    class="btn btn-danger btn-lg animate__animated animate__fadeInUp scrollto">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url(images/pexels-ksenia-chernaya-3965543.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h1 style="font-size:5vw;" class="animate__animated animate__fadeInRightBig animate__repeat-2">
+                  <b>Welcome to <br><span class="Yellow-text align-middle fw-bolder">Manchurian Garments
+                      Limited</span></b><br>
+                </h1>
+                <p style="font-size:2vw;"
+                  class="text-white animate__animated animate__flipInX animate__repeat-2 fst-italic">
+                  Brilliant by design
+                </p>
+                <div>
+                  <a href="Manchurian_Garments_ltd_Profile_Low.pdf"
+                    class="btn btn-danger btn-lg animate__animated animate__fadeInUp scrollto">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
       </div>
     </div>
-  </div>
-  <!--SERVICES-->
-  <section class="section-services" id="Services">
-    <div class="container">
-      <div class="row justify-content-center text-center">
-        <div class="col-md-10 col-lg-8">
-          <div class="header-section ">
-            <h2 class="title fw-bolder"><b>EXCLUSIVE SERVICES</b></h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <!-- Single Service -->
-        <div class="col-md-6 col-lg-4 shadow-sm">
-          <div class="single-service">
-            <div class="content">
-              <h3 class="title">School Uniforms</h3>
-              <p class="description">
-                Our experience and expertise has made us the go to for parents and schools to supply them with qaulity
-                school uniforms that're long lasting.
-              </p>
-              <a href="Manchurian_Garments_ltd_Profile_Low.pdf" class="learn-more">Learn More</a>
-            </div>
-            <span class="circle-before"></span>
-          </div>
-        </div>
-        <!-- / End Single Service -->
-        <!-- Single Service -->
-        <div class="col-md-6 col-lg-4 shadow-sm">
-          <div class="single-service">
-            <div class="content">
+  </section><!-- End Hero -->
 
-              <h3 class="title">Safety Clothes</h3>
-              <p class="description">
-                Using state of the art equipments, we provide high quality safety clothes that can with stand abuse and
-                adverse working conditions.
-              </p>
-              <a href="Manchurian_Garments_ltd_Profile_Low.pdf" class="learn-more">Learn More</a>
-            </div>
-            <span class="circle-before"></span>
-          </div>
-        </div>
-        <!-- / End Single Service -->
-        <!-- Single Service -->
-        <div class="col-md-6 col-lg-4 shadow-sm">
-          <div class="single-service">
-            <div class="content">
 
-              <h3 class="title">Hotel Uniforms</h3>
-              <p class="description">
-                With our expertise, we provide professional looking hotel uniforms that leave our clients in awe.
-              </p>
-              <a href="Manchurian_Garments_ltd_Profile_Low.pdf" class="learn-more">Learn More</a>
-            </div>
-            <span class="circle-before"></span>
+  <section class="about-us pt-5" id="About">
+    <div class="container text-md-left">
+      <div class="row pt-5">
+        <div class="col-md mx-auto">
+          <div class="header-section">
+            <h2 class="title fw-bolder"><b>ABOUT</b> <b>US</b></h2>
+            <span class="fs-5  text-uppercase">We are your uniform solutions experts.</span>
           </div>
-        </div>
-        <!-- / End Single Service -->
-        <!-- Single Service -->
-        <div class="col-md-6 col-lg-4 shadow-sm">
-          <div class="single-service">
-            <div class="content">
+          <p class="my-1 text-start fs-5">
+            With our roots established in manufacturing of uniforms since 2018 we have grown to be distinguished leaders
+            within this category.</p>
 
-              <h3 class="title">Clinical Linen</h3>
-              <p class="description">
-                Our partnership with various medical institutions has provided us with extensive knowledge and
-                experience on how to manufacture quality clinical linens for institution staff.
-              </p>
-              <a href="Manchurian_Garments_ltd_Profile_Low.pdf" class="learn-more">Learn More</a>
-            </div>
-            <span class="circle-before"></span>
+          <p class="my-1 text-start fs-5">Over the years, we have expanded manufacturing of uniforms to diverse
+            industries and
+            sectors. Today, we manufacture school uniforms, hotel uniforms, safety clothing, clinical linen among
+            others. We have the capacity to produce up to 5,600 uniform sets, 11,000 shirts and blouses and 500
+            corporate suits
+            monthly depending on the style and requirements.
+          </p>
+          <div>
+            <h5 class="my-0 text-center fs-3">Our Mission</h5>
+            <p class="my-1 text-center fs-5">
+              To be a global market leaders in uniform and safety garments
+              manufacturing.
+            </p>
+            <h5 class=" my-0 text-center fs-3">Our Vision</h5>
+            <p class="my-1 text-center fs-5">To deliver what we promise to our customers.</p>
+          </div>
+          <div class="text-center mb-4">
+            <a href="about.html" class="btn btn-danger">Learn More</a>
           </div>
         </div>
-        <!-- / End Single Service -->
-        <!-- Single Service -->
-        <div class="col-md-6 col-lg-4 shadow-sm">
-          <div class="single-service">
-            <div class="content">
+        <div class="col-md mx-auto">
+          <!--image-->
+          <img src="images/pexels-muhammadtaha-ibrahim-12659979.jpg" class="img-fluid pb-4" alt="...">
 
-              <h3 class="title">Embroidery Services</h3>
-              <p class="description">
-                Using state of the art equipments we provide high quality and seamless embroidery services that has made
-                us the go to for all types of institutions.
-              </p>
-              <a href="Manchurian_Garments_ltd_Profile_Low.pdf" class="learn-more">Learn More</a>
-            </div>
-            <span class="circle-before"></span>
-          </div>
         </div>
-        <!-- / End Single Service -->
-        <!-- Single Service -->
-        <div class="col-md-6 col-lg-4 shadow-sm">
-          <div class="single-service">
-            <div class="content">
-              <h3 class="title">Screen Printing</h3>
-              <p class="description">
-                Our expertise and use of state of the art printers, we provide high quality prints that are appealing to
-                the eyes.
-              </p>
-              <a href="Manchurian_Garments_ltd_Profile_Low.pdf" class="learn-more">Learn More</a>
-            </div>
-            <span class="circle-before"></span>
-          </div>
-        </div>
-        <!-- / End Single Service -->
       </div>
     </div>
   </section>
-  <!-- / END SECTION SERVICES -->
-
-  <!--SERVICES-->
-
-
-  <!--About-->
-  <div class="about-us" id="About">
-    <div class="container">
-      <div class="row mt-5">
-        <div class="text-center mb-2-8 mb-lg-6">
-          <h2 class="text-light fw-bolder"><b>ABOUT</b> <b>US</b></h2>
-          <span class="text-light fs-4 fst-italic">The trusted source of Garments.</span>
-        </div>
-        <p class="text-light my-3 text-center fs-4">
-          Manchurian Garment Manufacturers was established over 5 years
-          ago. We have a large work force consisting of designers, sewers
-          and support team in production department. We have modern
-          technology machines with adoption textiles science and
-          technology.
-        </p>
-        <div>
-          <h5 class="text-center fs-3">Our Mision</h5>
-          <p class="text-light text-center fs-4">
-            To be a global market leaders in uniform and safety garments
-            manufacturing.
-          </p>
-          <h5 class="text-center fs-3">Our Vision</h5>
-          <p class="text-light text-center fs-4">To deliver what we promise to our customers.</p>
-        </div>
-        <div class="row">
-
-          <div class="text-center">
-            <a href="about.html" class="btn btn-primary">Learn More</a>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
   <!--About-->
 
   <!--Our Work-->
@@ -224,7 +190,8 @@
                 Our experience and expertise has made us the go to for parents and schools to supply them with qaulity
                 school uniforms that're long lasting.
               </p>
-              <a href="Manchurian_Garments_ltd_Profile_Low.pdf" class="btn btn-primary mt-auto align-self-start">Learn More</a>
+              <a href="Manchurian_Garments_ltd_Profile_Low.pdf" class="btn btn-danger mt-auto align-self-start">Learn
+                More</a>
             </div>
           </div>
         </div>
@@ -239,7 +206,8 @@
                 Using state of the art equipments, we provide high quality safety clothes that can with stand abuse and
                 adverse working conditions.
               </p>
-              <a href="Manchurian_Garments_ltd_Profile_Low.pdf" class="btn btn-primary mt-auto align-self-start">Learn More</a>
+              <a href="Manchurian_Garments_ltd_Profile_Low.pdf" class="btn btn-danger mt-auto align-self-start">Learn
+                More</a>
             </div>
           </div>
         </div>
@@ -253,7 +221,8 @@
               <p class="card-text mb-4">
                 With our expertise, we provide professional looking hotel uniforms that leave our clients in awe.
               </p>
-              <a href="Manchurian_Garments_ltd_Profile_Low.pdf" class="btn btn-primary mt-auto align-self-start">Learn More</a>
+              <a href="Manchurian_Garments_ltd_Profile_Low.pdf" class="btn btn-danger mt-auto align-self-start">Learn
+                More</a>
             </div>
           </div>
         </div>
@@ -268,7 +237,8 @@
                 Our partnership with various medical institutions has provided us with extensive knowledge and
                 experience on how to manufacture quality clinical linens for institution staff.
               </p>
-              <a href="Manchurian_Garments_ltd_Profile_Low.pdf" class="btn btn-primary mt-auto align-self-start">Learn More</a>
+              <a href="Manchurian_Garments_ltd_Profile_Low.pdf" class="btn btn-danger mt-auto align-self-start">Learn
+                More</a>
             </div>
           </div>
         </div>
@@ -283,7 +253,8 @@
                 Using state of the art equipments we provide high quality and seamless embroidery services that has made
                 us the go to for all types of institutions.
               </p>
-              <a href="Manchurian_Garments_ltd_Profile_Low.pdf" class="btn btn-primary mt-auto align-self-start">Lear More</a>
+              <a href="Manchurian_Garments_ltd_Profile_Low.pdf" class="btn btn-danger mt-auto align-self-start">Lear
+                More</a>
             </div>
           </div>
         </div>
@@ -299,7 +270,8 @@
                 Our expertise and use of state of the art printers, we provide high quality prints that are appealing to
                 the eyes.
               </p>
-              <a href="Manchurian_Garments_ltd_Profile_Low.pdf" class="btn btn-primary mt-auto align-self-start">Learn More</a>
+              <a href="Manchurian_Garments_ltd_Profile_Low.pdf" class="btn btn-danger mt-auto align-self-start">Learn
+                More</a>
             </div>
           </div>
         </div>
@@ -324,7 +296,7 @@
           <p><i class="fa fa-mobile mr-3"></i> +254 714772175</p><br />
           <p><i class="fa fa-envelope mr-3"></i> manchurian@gmail.com</p>
         </div>
-        <div class="col-md mx-auto text-center">
+        <div class="col-md mx-auto text-center mb-5">
           <!--map-->
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.1663156146346!2d37.07105791430416!3d-1.0358392356953117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f4e855cbe0b25%3A0x60cb035955d61f6a!2sMathai%20Supermarkets%20Ltd-Thika!5e0!3m2!1sen!2ske!4v1663964805377!5m2!1sen!2ske"
@@ -386,9 +358,6 @@
               <a href="#Home" class="text-white" style="text-decoration: none">Home</a>
             </p>
             <p>
-              <a href="#Services" class="text-white" style="text-decoration: none">Services</a>
-            </p>
-            <p>
               <a href="#Our Work" class="text-white" style="text-decoration: none">Our Work</a>
             </p>
             <p>
@@ -441,10 +410,17 @@
 
     <!--FOOTER-->
     <!--Footer-->
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous">
+    </script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+      
+
 </body>
 
 </html>
