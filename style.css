@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
 
 .navbar .nav-link {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 700;
 }
 
@@ -186,254 +186,12 @@ h1 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-/*.hero {
-  min-height: 50vh;
-  background: #000 url(images/backgroundM.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  background-position: center center;
-  width: 100%;
-}
-
-.hero:before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
-}
-.hero-content {
-  position: absolute;
-  bottom: 15px;
-  color: #fff;
-}
-
-
-h4 {
-  position: relative;
-  display: inline-block;
-  font: 100px;
-  font-weight: bolder;
-  color: #a2c34a;
-  font-family: 'Sora', sans-serif;
-}
-
-/*
-p,
-a,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-li {
-  margin: 0;
-  padding: 0;
-}
-
-.section-services {
-  font-family: "Poppins", sans-serif;
-  background-color: white;
-  color: white;
-  padding-top: 100px;
-  padding-bottom: 50px;
-}
-
-.section-services .header-section .title {
-  color: #000;
-}
-
-.section-services .single-service .title {
-  color: #000;
-}
-
-.section-services .single-service .description {
-  color: #000;
-}
-
-.section-services .header-section {
-  margin-bottom: 34px;
-}
-
-.section-services .header-section .title {
-  position: relative;
-  padding-bottom: 14px;
-  margin-bottom: 25px;
-  font-weight: 700;
-  font-size: 32px;
-}
-
-.section-services .header-section .title:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 50px;
-  height: 3px;
-  background-color: #ff4500;
-  border-radius: 3px;
-}
-
-.section-services .header-section .title:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(30px);
-  width: 10px;
-  height: 3px;
-  background-color: white;
-  border-radius: 3px;
-}
-
-.section-services .header-section .description {
-  font-size: 14px;
-  color: white;
-}
-
-.section-services .single-service {
-  position: relative;
-  margin-top: 30px;
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 40px 30px;
-  overflow: hidden;
-}
-
-.section-services .single-service .content {
-  position: relative;
-  z-index: 20;
-}
-
-.section-services .single-service .circle-before {
-  position: absolute;
-  top: 0;
-  right: 0px;
-  transform: translate(40%, -40%);
-  width: 150px;
-  height: 150px;
-  background-color: #ff4500;
-  border: 6px solid white;
-  border-radius: 50%;
-  opacity: 0.5;
-  z-index: 10;
-  transition: all .6s;
-}
-
-.section-services .single-service:hover .circle-before {
-  width: 100%;
-  height: 100%;
-  transform: none;
-  border: 0;
-  border-radius: 0;
-  opacity: 1;
-}
-
-.section-services .single-service .icon {
-  display: inline-block;
-  margin-bottom: 26px;
-  width: 70px;
-  height: 70px;
-  background-color: #ff4500;
-  border-radius: 5px;
-  line-height: 70px;
-  text-align: center;
-  color: #fff;
-  font-size: 30px;
-  transition: all .3s;
-}
-
-.section-services .single-service:hover .icon {
-  background-color: #fff;
-  color: #ff4500;
-}
-
-.section-services .single-service .title {
-  margin-bottom: 18px;
-  font-weight: 700;
-  font-size: 23px;
-  transition: color .3s;
-}
-
-.section-services .single-service:hover .title {
-  color: #fff;
-}
-
-.section-services .single-service .description {
-  margin-bottom: 20px;
-  font-size: 14px;
-  transition: color .3s;
-}
-
-.section-services .single-service:hover .description {
-  color: #fff;
-}
-
-.section-services .single-service a {
-  position: relative;
-  font-size: 18px;
-  color: #202020;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color .3s;
-}
-
-.section-services .single-service:hover a {
-  color: #fff;
-}
-
-.section-services .single-service a:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background-color: #ff4500;
-  transition: background-color .3s;
-}
-
-.section-services .single-service:hover a:after {
-  background-color: #fff;
-}*/
-
-
-
 .about-sub-heading h2 {
   color: #000;
 }
 
-/*.about-us {
-  padding: 50px 0;
-  width: 100%;
-  background-color: #f1f1f1;
-  padding-top: 30px;
-  background-image: url("images/no.jpg");
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}*/
-
-
 .about-us h5 {
-  color: #a3c742;
+  color: #a3c44b;
   font-weight: bolder;
   font-family: "Poppins", sans-serif;
 }
@@ -462,8 +220,6 @@ li {
 }
 
 
-
-
 footer {
   background: url(images/terri.jpg);
   background-attachment: fixed;
@@ -474,5 +230,37 @@ footer {
 }
 
 .list-inline-item :hover {
-  color: rgba(0, 132, 255, 0.87);
+  color: #0684bf;
+}
+
+
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #0684bf;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #efa545;
+  color: #fff;
+ 
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
 }
